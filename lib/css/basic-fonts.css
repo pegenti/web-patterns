@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Bash';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.svg#BashNext-Regular') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/regular/BashNext-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-UltraLight';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.svg#BashNext-UltraLight') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light/BashNext-UltraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-UltraLightItalic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.svg#BashNext-UltraLightItalic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/ultra-light-italic/BashNext-UltraLightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-Medium';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.svg#BashNext-Medium') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium/BashNext-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-MediumItalic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.svg#BashNext-MediumItalic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/medium-italic/BashNext-MediumItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-Italic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.svg#BashNext-Italic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/italic/BashNext-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-DemiBold';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.svg#BashNext-DemiBold') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold/BashNext-DemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-DemiBoldItalic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.svg#BashNext-DemiBoldItalic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/demi-bold-italic/BashNext-DemiBoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-Bold';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.svg#BashNext-Bold') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold/BashNext-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-BoldItalic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.svg#BashNext-BoldItalic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/bold-italic/BashNext-BoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-Heavy';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.svg#BashNext-Heavy') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy/BashNext-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bash-HeavyItalic';
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.eot');
+  src: url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.woff2') format('woff2'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.woff') format('woff'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.ttf') format('truetype'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.svg#BashNext-HeavyItalic') format('svg'),
+       url('http://localhost/~pauljosephgentile/bash-pro/lib/fonts/bash-next/heavy-italic/BashNext-HeavyItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
