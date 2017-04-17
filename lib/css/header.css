@@ -1,0 +1,261 @@
+/*HEADER*/
+div.header{
+  position: relative;
+  margin: 0px auto;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+div.mobile-menu-view {
+    display: block;
+    background: #333;
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(180%) blur(10px);
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    box-sizing: content-box;
+    box-shadow: 0px 1px 0px #ededed;
+}
+/*WHEN ACTIVE HEIGHT RESEIZES TO DISPLAY NAVIGATION*/
+
+div.mobile-menu-view.active {
+    height: 100%;
+}
+div.mobile-menu-view div.mobile-menu-header {
+    display: block;
+}
+div.mobile-menu-header {
+    position: relative;
+    z-index: 5;
+    /*background: rgb(255, 255, 255);*/
+    height: 48px;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0px auto;
+}
+div.mobile-menu-header div.desktop-title-area{
+  height:100%;
+  width: 120px;
+  display: none;
+  vertical-align: top;
+}
+div.desktop-title-area a.link-home{
+  display: block;
+  height:100%;
+  width:100%;
+
+}
+div.desktop-title-area a.link-home span{
+  display: inline-block;
+  height:100%;
+}
+div.desktop-title-area a.link-home span.bash-logo-red{
+  width:30px;
+  background: url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/bash-red.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  margin-left: 5px;
+}
+div.desktop-title-area a.link-home span.pro-text{
+  font-family: 'Bash-Bold';
+  color:#ed1943;
+  font-size: 26px;
+  vertical-align: top;
+}
+div.mobile-menu-header ul {
+    height: 48px;
+    font-size: 0;
+    list-style: none;
+    display: inline-block;
+}
+div.mobile-menu-header ul li {
+    height: 48px;
+    width: auto;
+    vertical-align: top;
+}
+div.mobile-menu-header ul li a{
+    display: block;
+    color: #757575;
+}
+div.mobile-menu-header ul li a span{
+    font-size: 16px;
+}
+div.mobile-menu-header ul li.desktop-link {
+    display: none;
+}
+
+div.mobile-menu-header ul li.desktop-link a{
+    display: block;
+    height:100%;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    border-bottom: 2px solid transparent;
+}
+div.mobile-menu-header ul li.desktop-link a:hover{
+  color:black;
+  border-bottom: 2px solid red;
+}
+div.mobile-menu-header ul li.desktop-link a.active{
+  color:black;
+  border-bottom: 2px solid red;
+}
+div.mobile-menu-header ul li.close-menu-switch {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: top;
+}
+li.close-menu-switch span.menu-mobile-close {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    background: no-repeat url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/menu.svg");
+    background-size: 37%;
+    background-position: center;
+    background-repeat: none;
+    cursor: pointer;
+}
+li.close-menu-switch span.menu-mobile-close.close {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    background: no-repeat url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/menu-close.svg");
+    background-size: 32%;
+    background-position: center;
+    background-repeat: none;
+    cursor: pointer;
+}
+div.close-menu-switch a.menu-mobile-close:hover {
+    opacity: 0.65
+}
+div.mobile-menu-header ul li.visit-venue-signin {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: auto;
+}
+a.menu-mobile-venues {
+    display: inline-block;
+    height: 48px;
+    width: auto;
+    color: #757575;
+    text-align: center;
+    padding: 7px 7px 7px 0px;
+    position: relative;
+    font-size: 0;
+    box-sizing: border-box;
+}
+a.menu-mobile-venues span.user-default-image {
+    display: block;
+    /*background: #ededed;*/
+
+    background: #ededed url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/bash-red.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    margin-top: 7px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    float: left;
+}
+a.menu-mobile-venues span.venues-button {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0px 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    float: left;
+}
+a.menu-mobile-venues:hover span.venues-button {
+    color:black;
+}
+a.menu-mobile-venues span.seperator-bar {
+    display: inline-block;
+    background: #C7CACF;
+    height: 20px;
+    width: 1px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+a.menu-mobile-venues span.drop-arrow {
+    display: inline-block;
+    background: url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/drop-arrow.svg");
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+/*MOBILE NAVIGATION VIEW*/
+
+div.mobile-nav {
+    position: absolute;
+    z-index: 3;
+    top: 48px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    overflow-y: scroll;
+    display: none;
+}
+div.mobile-nav.active {
+    display: block;
+}
+div.mobile-nav ul {
+    padding: 5px 48px 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0px;
+    left: 0;
+    margin: 0;
+    display: block;
+    height: auto;
+    visibility: visible;
+    list-style: none;
+}
+div.mobile-nav ul li {} div.mobile-nav ul li:first-child {
+    display: block;
+}
+div.mobile-nav ul li:last-child {
+    display: block
+}
+div.mobile-nav ul li a {
+    color: gray;
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: 1px solid grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Helvetica-neue", helvetica;
+    padding: 5px 0px;
+    text-align: left;
+}
+div.mobile-nav ul li a:hover {
+    color: black;
+}

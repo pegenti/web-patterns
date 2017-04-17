@@ -1,0 +1,182 @@
+/*FOOTER*/
+div.footer {
+    background: rgb(248, 249, 251);
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/*NAVIGATION HEADER TITLES*/
+div.footer-navigation-items {
+  margin: 0px auto;
+  max-width: 860px;
+}
+div.footer-navigation-items ul {
+    padding: 20px 40px;
+    padding-bottom: 0px;
+    list-style: none;
+    text-align: center;
+    text-align: justify;
+    font-size: 0;
+}
+div.footer-navigation-items ul li {
+    border-bottom: 0.5px solid rgb(151, 151, 151);
+}
+div.footer-navigation-items ul li a {
+    display: block;
+    color: #ed1943;
+    font-weight: bold;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    position: relative;
+    position: relative;
+}
+div.footer-navigation-items ul li a span.expand-plus {
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background: url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/expand-plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    display: block;
+    height: 20px;
+    width: 20px;
+    transform: rotate(0deg);
+    transition: transform 50ms;
+}
+div.footer-navigation-items ul li a span.expand-plus.active {
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background: url("http://localhost/~pauljosephgentile/bash-pro/lib/svg/expand-plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    display: block;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    transition: transform 50ms;
+}
+
+/*HIDDEN DROP DOWN ELEMENTS*/
+div.footer-navigation-items ul li div.hidden-footer-options {
+    display: none;
+}
+div.footer-navigation-items ul li div.hidden-footer-options.active {
+    display: block;
+}
+div.hidden-footer-options ul {
+    padding: 0px;
+    padding-bottom: 15px;
+}
+div.hidden-footer-options ul li {
+    border: 0px;
+}
+div.hidden-footer-options ul li a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+div.hidden-footer-options ul li a:hover {
+    text-decoration: underline;
+    ;
+}
+
+/*LANGUAGE*/
+div.language {
+    padding: 0px 40px;
+    list-style: none;
+}
+div.language ul {}
+div.language ul li {
+    border-bottom: 0.5px solid rgb(151, 151, 151);
+    height: 41px;
+    display: block;
+}
+div.language ul li a::before {
+    content: "";
+    float: left;
+    width: 13px;
+    height: 13px;
+    background: url("http://localhost/~pauljosephgentile/bash-pro/lib/graphics/changelanguage_icon2x.png");
+    background-size: 13px 13px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+div.language ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+div.language ul li a:hover{
+    text-decoration: underline;
+}
+
+/*SOCIAL MEDIA LINKS*/
+div.social {
+    padding: 0px 40px;
+    list-style: none;
+    background: transparent;
+}
+div.social ul {
+    list-style: none;
+    height: 41px;
+    border-bottom: 0.5px solid rgb(151, 151, 151);
+}
+div.social ul li {
+    display: inline-block;
+}
+div.social ul li a {
+    display: block;
+    height: 40px;
+    width: 30px;
+    margin-right: 3px;
+    background: grey;
+}
+div.social ul li a.social-icon {
+    background: url(http://localhost/~pauljosephgentile/bash-pro/lib/graphics/social-media-symbols.png);
+    background-size: 180px 80px;
+    background-repeat: no-repeat;
+}
+div.social ul li a.social-icon.facebook {
+    background-position: 0px 0px;
+}
+div.social ul li a.social-icon.instagram {
+    background-position: -30px 0px;
+}
+div.social ul li a.social-icon.twitter {
+    background-position: -150px 0px;
+}
+div.social ul li a.social-icon.google-plus {
+    background-position: -90px 0px;
+}
+div.social ul li a.social-icon.email {
+    background-position: -120px -40px;
+}
+
+/*COPYRIGHT*/
+div.copyright {
+    padding: 8px 40px;
+}
+div.copyright h2 {
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
