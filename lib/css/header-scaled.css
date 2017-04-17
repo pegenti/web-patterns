@@ -1,0 +1,39 @@
+  @media (min-width: 760px) and (min-height: 400px){
+    /*HIDE THE MENU-TO-CLOSE BUTTON*/
+  div.mobile-menu-header ul li.close-menu-switch{
+    display: none;
+  }
+
+  /*SHOW THE DESKTOP LINKS*/
+  div.mobile-menu-header ul{
+    float:right;
+  }
+  div.mobile-menu-header ul li.desktop-link {
+      display: inline-block;
+  }
+  /*DECORATE THE SIGN IN BUTTON FOR DESKTOP*/
+  a.menu-mobile-venues span.button-container{
+    display: block;
+    border-radius: 6px;
+    padding: 0px 5px 0px 6px;
+    box-shadow: 0px 0px 8px rgba(120,120,120,0.3);
+    height:33px;
+  }
+  a.menu-mobile-venues:hover span.button-container{
+    box-shadow: 0px 0px 6px rgba(120,120,120,0.3);
+  }
+  /*SHOW THE BASH LOGO*/
+  div.mobile-menu-header div.desktop-title-area{
+    display: inline-block;
+  }
+  div.mobile-menu-header ul li.visit-venue-signin {
+      position: relative;
+      right: 0px;
+      top: 0px;
+      width: auto;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 5px;
+  }
+
+  }

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head itemscope="" itemtype="http://schema.org/WebSite">
+	<title>
+		Bash Pro - Empower Your Establishment
+	</title>
+	<meta name="description" content="" />
+	<!--META LINKS - UNIVERSAL-->
+	<meta charset="UTF-8" />
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
+	<!--GENERIC SITE DETAILS-->
+	<meta name="application-name" content="" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	<!--FB - Open Graph-->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Pegenti" />
+	<meta property="og:title" content="Pegenti" />
+	<meta property="og:url" content="www.pegenti.com" />
+	<meta property="og:description" content="" />
+	<!--SCHEMA LINKS-->
+	<link rel="alternate" hreflang="en" href="https://pegenti.com" />
+	<link rel="canonical" href="https://pegenti.com" />
+	<link href="https://plus.google.com/+pegenti" rel="publisher" />
+	<!--Icons-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/lib/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/lib/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/lib/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/lib/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/lib/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/lib/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/lib/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/lib/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/lib/icons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/lib/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/lib/icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/lib/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/lib/icons/favicon-16x16.png" sizes="16x16">
+	<!--SYSTEM RICH DATA-->
+	<script type="application/ld+json">
+		{ "@context":"http://schema.org", "@type":"WebSite", "name": "", "url":"", "potentialAction":{ "@type":"SearchAction", "target":"", "query-input":"required name=search_term" } }
+	</script>
+	<script type="application/ld+json">
+		{ "@context":"http://schema.org", "@type":"Organization", "name":"Pegenti", "url": "http://.com", "logo":"", "sameAs": [ "https://www.facebook.com/", "https://plus.google.com/", "https://twitter.com/"], "contactPoint": [ { "@type": "ContactPoint", "telephone": "+1 (305) 431-4742", "contactType": "sales", "areaServed": [ "US" ] } ] }
+	</script>
+	<!-- SUPPOSEDLY A WAY TO PREVIEW THE SITE ON SAFARI SMART TAB -->
+	<script type="text/javascript">
+		{
+			(function() {
+				var browser = window.navigator,
+					SC = window.SC,
+					userAgent = browser ? browser.userAgent : null;
+				if (browser && browser.loadPurpose === "preview") {
+					window.location.replace("/");
+					return
+				} else {
+					if (window.navigator && window.navigator.loadPurpose === "preview") {
+						window.location.href = "https://pegenti.github.io/web-patterns";
+						return
+					}
+				}
+			}());
+		}
+	</script>
+
+	<!--FONTS CSS LINKS-->
+	<link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/basic-fonts.css" />
+	<!--<link rel="stylesheet" type="text/css"  property='stylesheet' href="/library/css/header.css"/>-->
+
+	<!--TEMPLATE INTIAL-->
+	<link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/basic-properties.css" />
+
+	<!--HEADER & MOBILE NAV MENU-->
+	<link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/header.css" />
+  <link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/header-scaled.css" />
+
+	<!-- BASIc DESIGN FOUNDATION of SECTIONS -->
+	<link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/main-frames.css" />
+  <link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/main-frames-scaled.css" />
+
+	<!--EXAMPLE BOX HOVERS-->
+	<style>
+	</style>
+
+	<!--DELIVERABLES-->
+	<style>
+	</style>
+	<!--DELIVERABLES-->
+	<style>
+	</style>
+
+	<!--FOOTER-->
+	<link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/footer.css" />
+  <link rel="stylesheet" type="text/css" property='stylesheet' href="/lib/css/footer-scaled.css" />
+
+	<!-- Jquery -->
+	<script src="/lib/js/jquery-3.2.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// MOBILE HEADER OPEN - CLOSE
+			$('li.close-menu-switch').click(function(event) {
+				event.preventDefault();
+				$('div.mobile-menu-view').toggleClass('active');
+				$('span.menu-mobile-close').toggleClass('close');
+				$('body').toggleClass('mm');
+				$('div.main').toggleClass('mm');
+				$('div.mobile-nav').toggleClass('active');
+			});
+
+			//Footer ELEMENTS TOGGLE
+			$('a.footer-key-group').click(function(event) {
+				event.preventDefault();
+				$(this).children().toggleClass('active');
+				$(this).next().toggleClass('active');
+			});
+		});
+	</script>
+</head>
+<body>
+	<!--HEADER & MOBILE MENU -->
+  <div class="header">
+	<div class="mobile-menu-view ">
+		<div class="mobile-menu-header ">
+      <div class="desktop-title-area">
+        <a href="" title="" rel="" class="link-home">
+          <span class="bash-logo-red"></span>
+          <span class="pro-text">Pro</span>
+        </a>
+      </div>
+			<ul>
+				<li class="close-menu-switch">
+					<span class="menu-mobile-close"></span>
+				</li>
+        <!-- HIDDEN FROM MOBILE - DESKTOP LINKS -->
+        <li class="desktop-link">
+          <a href="" title="" rel="" class="">
+					<span class="">Product</span>
+        </a>
+				</li>
+        <li class="desktop-link">
+          <a href="" title="" rel="" class="">
+					<span class="">Pricing</span>
+        </a>
+				</li>
+        <li class="desktop-link">
+          <a href="" title="" rel="" class="">
+					<span class="">Support</span>
+        </a>
+				</li>
+				<li class="visit-venue-signin">
+					<a href="" title="" rel="" class="menu-mobile-venues">
+            <span class="button-container">
+						<span class="user-default-image"></span>
+						<span class="venues-button">Sign In</span>
+						<span class="seperator-bar"></span>
+						<span class="drop-arrow"></span>
+            </span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="mobile-nav">
+			<!--NAV UL LINKS-->
+			<ul>
+				<li>
+					<a href="/product" title="Product" rel="" class='product'>Product</a>
+				</li>
+				<li>
+					<a href="/pricing" title="Pricing" rel="" class='pricing'>Pricing</a>
+				</li>
+				<li>
+					<a href="/support" title="Support" rel="" class='support'>Support</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+	<!--BACKGROUND - USED to call home-tilt.js and display elements-->
+	<div class="background-special"></div>
+	<!--MAIN CONTAINER-->
+	<div class="main">
+		<!-- FEATURED SECTION -->
+		<div class="featured-section">
+			<div class="featured-container">
+				<div class="featured-title">
+					<h1>Bash Here Now!</h1>
+					<span class="featured-desktop-message">
+          Finally, just a few clicks away, exists a portal so simple, so afforable, it makes accomodating your customers, promoting your brand, managing your staff and marketing channels a fun and fantastic endevour!
+        </span>
+					<button>
+						<span>Get Started
+          </span>
+					</button>
+					<h2>WARNING: You are about to empower your establishment.*</h2>
+				</div>
+				<div class="or-seperator-graphic">
+					<span>OR</span>
+				</div>
+				<a href="/" class="login-link">
+					<span class="black-button">
+          Sign In
+        </span>
+					<span class="sign-in-text">
+        If you already joined.
+      </span>
+				</a>
+			</div>
+		</div>
+		<!-- FOOTER  -->
+		<div class="footer">
+			<!-- KEY NAVIGATION ITEMS -->
+			<div class="footer-navigation-items">
+				<ul>
+          <!-- BASH PRO RESOURCES -->
+					<li>
+						<a href="/" title="Using Bash" rel="" class="footer-key-group">Using Bash
+                <span class="expand-plus"></span>
+                </a>
+						<div class="hidden-footer-options ">
+							<ul>
+								<li>
+									<a href="/" title="Product" rel="" class="footer-hidden-item">Product</a>
+								</li>
+								<li>
+									<a href="/" title="Pricing" rel="" class="footer-hidden-item">Pricing</a>
+								</li>
+								<li>
+									<a href="/" title="Support" rel="" class="footer-hidden-item">Support</a>
+								</li>
+								<li>
+									<a href="/" title="Bash Guides" rel="" class="footer-hidden-item">Bash Guides</a>
+								</li>
+								<li>
+									<a href="/" title="Video Guides" rel="" class="footer-hidden-item">Video Guides</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+          <!-- BASH NETWORK PAGES -->
+					<li>
+						<a href="/" title="Bash Network" rel="" class="footer-key-group">Bash Network
+                  <span class="expand-plus"></span>
+                </a>
+						<div class="hidden-footer-options ">
+							<ul>
+								<li>
+									<a href="/" title="Jobs" rel="" class="footer-hidden-item">Jobs</a>
+								</li>
+								<li>
+									<a href="/" title="Customers" rel="" class="footer-hidden-item">Customers</a>
+								</li>
+								<li>
+									<a href="/" title="Developers" rel="" class="footer-hidden-item">Developers</a>
+								</li>
+								<li>
+									<a href="/" title="Events" rel="" class="footer-hidden-item">Events</a>
+								</li>
+								<li>
+									<a href="/" title="Blog" rel="" class="footer-hidden-item">Blog</a>
+								</li>
+								<li>
+									<a href="/" title="Podcast" rel="" class="footer-hidden-item">Podcast</a>
+								</li>
+								<li>
+									<a href="/" title="Bash Shop" rel="" class="footer-hidden-item">Bash Shop</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+          <!-- LEGAL REFERENCES -->
+					<li>
+						<a href="/" title="Legal Notices" rel="" class="footer-key-group">Legal Notices
+                  <span class="expand-plus"></span>
+                </a>
+						<div class="hidden-footer-options ">
+							<ul>
+								<li>
+									<a href="/" title="Privacy Policy" rel="" class="footer-hidden-item">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="/" title="Terms of Use" rel="" class="footer-hidden-item">Terms of Use</a>
+								</li>
+								<li>
+									<a href="/" title="Venue Agreement" rel="" class="footer-hidden-item">Venue Agreement</a>
+								</li>
+								<li>
+									<a href="/" title="Security Policy" rel="" class="footer-hidden-item">Security Policy</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+          <!-- BOOKMARKED LINKS -->
+					<li>
+						<a href="/" title="Bookmarked Links" rel="" class="footer-key-group">Bookmarked Links
+                  <span class="expand-plus"></span>
+                </a>
+						<div class="hidden-footer-options ">
+							<ul>
+								<li>
+									<a href="/" title="Download the Mobile App" rel="" class="footer-hidden-item">Download the Mobile App</a>
+								</li>
+								<li>
+									<a href="/" title="Brand Guidelines" rel="" class="footer-hidden-item">Brand Guidelines</a>
+								</li>
+								<li>
+									<a href="/" title="Press Kit" rel="" class="footer-hidden-item">Press Kit</a>
+								</li>
+								<li>
+									<a href="/" title="Bash at Work" rel="" class="footer-hidden-item">Bash at Work</a>
+								</li>
+								<li>
+									<a href="/" title="System Status" rel="" class="footer-hidden-item">System Status</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+      <!-- LANGUAGE CHANGE BUTTON -->
+      <div class="footer-desktop-wrapper">
+			<div class="language">
+				<ul>
+					<li>
+						<a href="/" title="US" rel="" class="">English (U.S.)</a>
+					</li>
+				</ul>
+			</div>
+      <!-- SOCIAL MEDIA LINKS -->
+			<div class="social">
+				<ul>
+					<li>
+						<a href="/" title="Facebook" rel="" class="social-icon facebook"></a>
+					</li>
+					<li>
+						<a href="/" title="Instagram" rel="" class="social-icon instagram"></a>
+					</li>
+					<li>
+						<a href="/" title="Twitter" rel="" class="social-icon twitter"></a>
+					</li>
+					<li>
+						<a href="/" title="Google Plus" rel="" class="social-icon google-plus"></a>
+					</li>
+					<li>
+						<a href="/" title="Email" rel="" class="social-icon email"></a>
+					</li>
+				</ul>
+			</div>
+    </div>
+      <!-- COPYRIGHT DETAIL -->
+			<div class="copyright">
+				<h2>
+          Copyright © 2017 Bash, The Party Network. All rights reserved.
+        </h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
